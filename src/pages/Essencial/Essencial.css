@@ -1,0 +1,40 @@
+.Essencial{
+
+    & .img-01{
+        margin-top: calc(-1 * var(--gap-main));
+    }
+
+    & .img-02{
+        width: 60vw;
+    }
+
+    & .img-03{
+        margin-top: calc(-1 * var(--gap-main));
+    }
+}
+
+
+/* Desktop */
+@media (min-width: 1440px){
+}
+
+/* Tablet */
+@media (max-width: 1439px) and (min-width: 768px) {
+        
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .Essencial{
+        & .img-04{
+            width: 160%;
+            margin-left: -30%;
+        }
+    }
+
+    .Essencial {
+    & .img-01{
+        margin-top: 0px;
+    }
+  }
+}

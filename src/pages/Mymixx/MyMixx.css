@@ -1,0 +1,15 @@
+.MyMixx {
+
+    & .img-01{
+        margin-top: var(--gap);
+    }
+
+    & .img-02{
+        margin-top: 30px;
+        width: 80vw;
+    }
+
+    & .img-03{
+        margin-top: calc(-1 * var(--gap-main));
+    }
+}

@@ -1,0 +1,35 @@
+.ProjectCode{
+    padding: 0 var(--padding);
+    margin: calc( -1 * var(--gap)) 0;
+
+    & .text-block{
+        display: flex; flex-direction: column;
+        gap: calc(var(--gap)/ 1.7);
+    }
+
+    & p{
+        font-family: monospace;
+        font-size: calc(var(--txt-text) / 1.4) ;
+    }
+}
+
+.line{
+    display: flex;
+}
+
+.line1 { gap: calc( 1 * (var(--gap) / 1.5)) }
+.line2 { gap: calc( 2 * (var(--gap) / 1.5)) }
+.line3 { gap: calc( 3 * (var(--gap) / 1.5)) }
+.line4 { gap: calc( 4 * (var(--gap) / 1.5)) }
+.line5 { gap: calc( 5 * (var(--gap) / 1.5)) }
+.line6 { gap: calc( 6 * (var(--gap) / 1.5)) }
+
+.code-text{
+    margin-left: var(--gap);
+}
+
+/* cores */
+.code-red    { color: var(--code-red); }
+.code-blue   { color: var(--code-blue);}
+.code-purple { color: var(--code-purple); }
+.code-rosa { color: var(--code-rosa); }
