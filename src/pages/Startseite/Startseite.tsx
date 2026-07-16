@@ -45,13 +45,12 @@ function Startseite() {
             <section className='about'>
                 <article>
                     <div className="tecnologie">
-                        <h2> Frontend <br /> Entwickler </h2>
+                        <h2> Product <br /> Designer </h2>
 
                         <ul>
-                            <li>Python</li>
-                            <li>React</li>
-                            <li>JavaScript</li>
-                            <li>PHP</li>
+                            <li>Figma Expert</li>
+                            <li>User Interface</li>
+                            <li>User Experience</li>
                         </ul>
                     </div>
 
@@ -59,21 +58,21 @@ function Startseite() {
 
                         <ProjectText
                             textParagraph={<>
-                            Mit der Zeit habe ich gemerkt, dass Programmieren nicht nur mein Job ist, es ist auch das, was mir richtig Spaß macht.
+                            Mit der Zeit habe ich gemerkt, dass Design nicht nur mein Job ist, es ist auch das, was mir richtig Spaß macht.
                             <br /><br />
-                            Programmiersprachen ist für mich eine Art Challenge. Jedes neue Framework, jede Sprache und jedes Konzept ist für mich eine Gelegenheit, etwas Neues zu entdecken und besser zu werden.
+                            User Interfaces sind für mich eine Art Challenge. Jedes neue Layout, jedes Interaktionsmuster und jedes visuelle Detail ist für mich eine Gelegenheit, etwas Neues zu entdecken und besser zu werden.
                             <br /><br />
-                            Ich bin einfach neugierig, wenn es um Programmierung geht und das hält mich immer am Lernen. Genau das liebe ich an diesem Beruf.
+                            Ich bin einfach neugierig, wenn es um die Gestaltung von Interfaces geht, und das hält mich immer am Lernen. Genau das liebe ich an diesem Beruf.
                             </>}
                         />
 
                         <ProjectTextEn
                             textParagraph={<>
-                            Over time, I realized that programming isn't just my job, it's also what I genuinely enjoy.
+                            Over time, I've realized that design isn't just my job, it's also what genuinely makes me happy.
                             <br /><br />
-                            Programming languages are a kind of challenge for me. Every new framework, every language, and every concept is an opportunity to discover something new and grow.
+                            User interfaces are a kind of challenge for me. Every new layout, every interaction pattern, and every visual detail is an opportunity to discover something new and get better.
                             <br /><br />
-                            I'm simply curious when it comes to programming, and that keeps me constantly learning. That's exactly what I love about this field.
+                            I'm simply curious when it comes to crafting interfaces, and that's what keeps me learning. That's exactly what I love about this profession.
                             </>}
                         />
 
@@ -101,6 +100,12 @@ function Startseite() {
             </section>
 
             <section className='projects'>
+
+                <ProjectCard
+                    name='Mova'
+                    img='/portfolio-designer/project/Mova/card.jpg'
+                    tag= 'UI-UX Design | E-Commerce | Shopping'
+                />
 
                 <ProjectCard
                     name='MyMixx'
@@ -131,19 +136,6 @@ function Startseite() {
                     nameLink='Praxis'
                     img='/portfolio-designer/project/Praxis/card.jpg'
                     tag= 'Design | Frontend Entwickler'
-                />
-
-                <ProjectCard
-                    name= 'Conquest'
-                    img='/portfolio-designer/project/Conquest/card.jpg'
-                    tag= 'Game Design'
-                />
-
-                <ProjectCard
-                    name= 'Sprout Run'
-                    nameLink='Sprout'
-                    img='/portfolio-designer/project/Sprout/card.jpg'
-                    tag= 'Game Design'
                 />
 
             </section>
