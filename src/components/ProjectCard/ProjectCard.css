@@ -30,13 +30,13 @@
         justify-content: space-between; align-items: center;
 
         & .name{
-            font-size: var(--txt-titel);
+            font-size: var(--txt-h1);
             font-weight: 500;
             color: black;
         }
 
         & .tag{
-            font-size: calc( var(--txt-titel) /1.8);
+            font-size: calc( var(--txt-h1) /1.8);
             color: black;
         }
     }
